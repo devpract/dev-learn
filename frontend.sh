@@ -12,10 +12,10 @@ curl -o /tmp/frontend.zip https://expense-artifacts.s3.amazonaws.com/expense-fro
 cd /usr/share/nginx/html
 
 
-echo -e "\e[36m EXTRACT CONTENT\e[0m"
+echo -e "\e[36mEXTRACT CONTENT\e[0m"
 unzip /tmp/frontend.zip
 
-echo -e "\e[36m RESTART SERVICE\e[0m"
+echo -e "\e[36mRESTART SERVICE\e[0m"
 systemctl enable nginx
 systemctl restart nginx
 
