@@ -12,7 +12,8 @@ curl -o /tmp/frontend.zip https://expense-artifacts.s3.amazonaws.com/expense-fro
 cd /usr/share/nginx/html
 
 
-echo EXTRACT CONTENTunzip /tmp/frontend.zip
+echo EXTRACT CONTENT
+unzip /tmp/frontend.zip
 
 echo RESTART SERVICE
 systemctl enable nginx
