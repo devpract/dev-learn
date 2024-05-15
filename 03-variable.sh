@@ -30,7 +30,7 @@ echo exit status - $?
 echo x value is ${x}
 $?
 
-#$0
+$0
 #$1
 #$2
 #$3
