@@ -6,7 +6,7 @@
 
 x=10
 
-# Acces: $var or ${var}
+# Access: $var or ${var}
 
 
 echo x value is $x
@@ -21,3 +21,18 @@ echo x value is $x
 
 ls
 echo exit status - $?
+
+#Exit status : 0-255
+#0- Success
+#1-255 - Failure
+
+
+echo x value is ${x}
+
+$0
+$1
+$2
+$3
+$#
+$*
+$?
